@@ -64,7 +64,7 @@ class Kerucut
     }
 }
 
-// Membuat objek dari masing masing class
+// Membuat objek dengan constructor
 
 $lingkaran = new Lingkaran(10);
 echo "Luas lingkaran dengan jari-jari {$lingkaran->jari_jari} cm adalah " . $lingkaran->luas() . " cm²\n";
