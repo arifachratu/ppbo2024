@@ -14,3 +14,7 @@ if ($jam >= 5 && $jam < 11) {
 }
 
 echo "{$salam} {$nama}, sekarang pukul " . date('H:i') . "\n";
+
+
+
+
