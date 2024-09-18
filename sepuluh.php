@@ -1,13 +1,11 @@
 <?php
-
-require_once 'App/Admin/HomePage.php';
-require_once 'App/Admin/ManajamenArtikel.php';
+require_once 'vendor/autoload.php';
 
 use App\Admin\HomePage;
-use App\Admin\ManajamenArtikel;
+use App\Admin\ManajemenArtikel;
 
 $hp = new HomePage();
 $hp->tampil();
 
-$ma = new ManajamenArtikel();
+$ma = new ManajemenArtikel();
 $ma->tambah();
