@@ -26,7 +26,6 @@ class ManajemenArtikel
     }
 }
 
-
 $hp = new \App\Guest\HomePage();
 $hp->tampil();
 
